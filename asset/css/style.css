@@ -76,6 +76,9 @@
     font-weight: bold;
 }
 
+.main-container-tipi a:hover {
+    color: #ffffff;
+}
 
 .main-container h1 {
     color: white;
