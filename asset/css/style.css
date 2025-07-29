@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+    font-family: 'Circular Std', 'Montserrat', sans-serif;
 }
 
 .container {
     display: flex;
 }
 
+/* Left container */
 .left-container {
     background-color: #000000;
     min-width: 300px;
@@ -19,8 +20,13 @@
     z-index: 100;
 }
 
+
+
+
+
+/* Top bar */
 .top-bar {
-    background-color: rgba(8, 11, 18, 0.5);
+    background-color: rgba(8, 11, 18, 0.8);
     width: calc(100% - 300px);
     height: 120px;
     display: flex;
@@ -30,16 +36,104 @@
     z-index: 100;
 }
 
+
+
+
+/* Main content */
 .main-container {
     background-color: #141922;
-    display: flex;
+    display: block;
     position: fixed;
     width: calc(100% - 300px);
     height: calc(100% - 120px);
     right: 0;
     top: 0px;
+    overflow-y: auto;
+    padding-top: 210px;
 }
 
+.main-container-tipi {
+    position: absolute;
+    top: 120px;
+    bottom: 120px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container-tipi ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 44px;
+}
+
+.main-container-tipi a {
+    text-decoration: none;
+    color: #797C80;
+    font-weight: bold;
+}
+
+
+.main-container h1 {
+    color: white;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.riprodotte {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141922;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.riprodotte figure {
+    width: calc(100% / 6 - 20px);
+    color: white;
+    text-align: center;
+    font-family: 'Circular Std', sans-serif;
+}
+
+.riprodotte img {
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.riprodotte figcaption {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.riprodotte figcaption span {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bottom */
 .player-container {
     background-color: #282828;
     min-height: 120px;
