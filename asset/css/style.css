@@ -5,8 +5,50 @@
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
 }
 
+.container {
+    display: flex;
+}
 
+.left-container {
+    background-color: #000000;
+    min-width: 300px;
+    height: calc(100% - 120px);
+    display: flex;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
 
+.top-bar {
+    background-color: rgba(8, 11, 18, 0.5);
+    width: calc(100% - 300px);
+    height: 120px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.main-container {
+    background-color: #141922;
+    display: flex;
+    position: fixed;
+    width: calc(100% - 300px);
+    height: calc(100% - 120px);
+    right: 0;
+    top: 0px;
+}
+
+.player-container {
+    background-color: #282828;
+    min-height: 120px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
 
 
 
