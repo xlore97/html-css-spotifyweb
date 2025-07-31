@@ -329,6 +329,186 @@
 
 
 
+.player-container-left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.player-container-left img {
+    display: flex;
+    width: 64px;
+    margin-left: 30px;
+}
+
+.player-container-left ul {
+    list-style-type: none;
+    margin-left: 16px;
+}
+
+.player-container-left strong {
+    color: white;
+    font-size: 16px;
+}
+
+.player-container-left li {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.player-container-left-icon {
+    color: #b3b3b3;
+    margin-left: 64px;
+}
+
+.fa-heart {
+    margin-right: 16px;
+    font-size: 20px;
+}
+
+.fa-folder {
+    font-size: 20px;
+}
+
+
+
+
+.player-container-center {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.player-container-center-control {
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-bottom: 16px;
+}
+
+.player-container-center-bar-time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 60%;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.player-container-center-bar-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-container-center-bar-container-bar {
+    width: 90%;
+    height: 4px;
+    background-color: #5A5A5A;
+    border-radius: 3px;
+}
+
+.player-container-center-bar-container-bar-fill {
+    width: 20%;
+    height: 100%;
+    background-color: #C1C1C1;
+}
+
+
+.fa-shuffle {
+    padding-left: 16px;
+    font-size: 25px;
+}
+
+.fa-backward-step {
+    padding-left: 32px;
+    font-size: 25px;
+}
+
+.fa-circle-play {
+    padding-left: 32px;
+}
+
+.fa-forward-step {
+    padding-left: 32px;
+    font-size: 25px;
+}
+
+.fa-rotate-right {
+    padding-left: 32px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player-container-right {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.player-container-right-progress-bar {
+    width: 40%;
+    height: 4px;
+    background-color: #5A5A5A;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.player-container-right-progress-bar-fill {
+    width: 30%;
+    height: 100%;
+    background-color: #C1C1C1;
+}
+
+.player-container-right-icon {
+    color: #E5E5E5;
+    padding-right: 16px;
+}
+
+.fa-list {
+    padding-right: 8px;
+}
+
+.fa-desktop {
+    padding-right: 8px;
+}
+
+.fa-volume-high {
+    padding-right: 8px;
+}
 
 
 
