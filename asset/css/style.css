@@ -72,6 +72,10 @@
     color: white;
 }
 
+.sidebar span:hover {
+    color: white;
+}
+
 .playlist-section {
     margin-top: 30px;
     width: 100%;
@@ -114,6 +118,10 @@
     font-weight: bold;
     color: #b3b3b3;
     font-size: 20px;
+}
+
+.create-playlist:hover {
+    color: white;
 }
 
 
@@ -173,10 +181,8 @@
 
 .left-container-footer .profile-icon {
     background-color: #b3b3b3;
-    /* colore di sfondo desiderato */
     padding: 4px;
     border-radius: 50%;
-    /* opzionale, se vuoi cerchio */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,6 +220,24 @@
     z-index: 100;
 }
 
+.top-bar-upgrade-button {
+    margin-left: auto;
+    margin-right: 100px;
+    align-self: center;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.top-bar-upgrade-button:hover {
+    transform: scale(1.1);
+}
 
 
 
@@ -299,6 +323,53 @@
 
 
 
+.main-container-section-title {
+    font-size: 26px;
+    color: white;
+    margin: 30px 20px 10px;
+}
+
+.main-container-section-subtitle {
+    color: #b3b3b3;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main-container-creato,
+.main-container-popolari {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px 40px;
+    flex-wrap: wrap;
+}
+
+.main-container-card {
+    width: calc(100% / 6 - 20px);
+    text-align: center;
+    color: white;
+}
+
+.main-container-card img {
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-container-card-title {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-container-popolari .main-container-card img {
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    display: block;
+}
 
 
 
@@ -361,16 +432,31 @@
     margin-left: 64px;
 }
 
+
+.nome-brano:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .fa-heart {
     margin-right: 16px;
     font-size: 20px;
+}
+
+.fa-heart:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .fa-folder {
     font-size: 20px;
 }
 
-
+.fa-folder:hover {
+    color: white;
+    cursor: pointer;
+}
 
 
 .player-container-center {
@@ -411,6 +497,7 @@
     height: 4px;
     background-color: #5A5A5A;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .player-container-center-bar-container-bar-fill {
@@ -419,29 +506,42 @@
     background-color: #C1C1C1;
 }
 
+.player-container-center-bar-container-bar-fill:hover {
+    background-color: lime;
+}
+
 
 .fa-shuffle {
     padding-left: 16px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .fa-backward-step {
     padding-left: 32px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .fa-circle-play {
     padding-left: 32px;
+    cursor: pointer;
+}
+
+.fa-circle-play:hover {
+    transform: scale(1.1);
 }
 
 .fa-forward-step {
     padding-left: 32px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .fa-rotate-right {
     padding-left: 32px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 
